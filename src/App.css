@@ -457,7 +457,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 55px 0px 0px 55px;
+  border-radius: 55px 0 0 55px;
 }
 .nav-link#projects-tabs-tab-second {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
@@ -510,6 +510,28 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
+}
+
+/************ Project Card ************/
+.proj-card-col {
+  cursor: pointer;
+}
+
+.proj-card-col:hover .proj-imgbx {
+  opacity: 0.8;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.popup-content img {
+  max-height: 300px;
+  width: auto;
+  object-fit: contain;
 }
 
 /************ Modal Projects **********/
